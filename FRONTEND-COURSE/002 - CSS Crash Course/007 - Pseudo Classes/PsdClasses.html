@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes and Pseudo Elements</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /*a:link {
+            color: blue;
+        }
+        a:visited{
+            color: goldenrod;
+        }
+        a:hover {
+            color: grey;
+        }
+        a:active {
+            color: skyblue;
+        }*/
+        .dropdown-contend a {
+            display: none;
+        }
+        .dropdown:hover .dropdown-contend a{
+            display: block;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <!-- <a href="https://www.google.com">Click Here</a> -->
+    <div class="dropdown">
+        <a href="Items"></a>
+        <div class="dropdown-contend">
+            <a href="#">Item 1</a>
+            <a href="#">Item 2</a>
+            <a href="#">Item 3</a>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
